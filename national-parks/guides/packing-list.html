@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Park Packing List | US National Parks</title>
+    <link rel="stylesheet" href="../css/parks.css" />
+    <style>
+      .guide-content { max-width: 800px; }
+      .checklist-section { margin-bottom: 2rem; }
+      .checklist-section h3 { color: var(--primary); margin-bottom: 0.8rem; font-size: 1.1rem; }
+      .checklist { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; }
+      .checklist li { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.9rem; padding: 0.4rem 0.6rem; background: #f7f4ef; border-radius: 4px; }
+      .checklist li::before { content: "☐"; color: var(--primary-light); font-size: 1rem; flex-shrink: 0; }
+      .tip-box { background: #d1fae5; border-left: 4px solid var(--primary-light); padding: 1rem 1.2rem; border-radius: 6px; margin: 1rem 0; font-size: 0.9rem; color: #065f46; }
+      .warning-box { background: #fee2e2; border-left: 4px solid #e74c3c; padding: 1rem 1.2rem; border-radius: 6px; margin: 1rem 0; font-size: 0.9rem; color: #991b1b; }
+      @media (max-width: 600px) { .checklist { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="header-text">
+          <h1>🎒 National Park Packing List</h1>
+          <p>Everything you need for a safe and enjoyable park visit</p>
+        </div>
+        <div class="header-badge" aria-hidden="true">🏕️</div>
+      </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../index.html">🏆 Rankings</a></li>
+        <li><a href="packing-list.html" class="active">🎒 Packing List</a></li>
+        <li><a href="leave-no-trace.html">🌿 Leave No Trace</a></li>
+        <li><a href="../itineraries/">🗓️ Itineraries</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="park-detail" style="padding-top:2rem">
+        <div class="container guide-content">
+          <a href="../index.html" class="back-link">← All Parks</a>
+
+          <div class="detail-card">
+            <h2>🎒 The Universal Day-Hike Kit</h2>
+            <p style="color:var(--text-muted);margin-bottom:1.2rem">Pack these on every single day hike, regardless of distance or season.</p>
+
+            <div class="tip-box">
+              💡 <strong>The Ten Essentials</strong> — originally published by The Mountaineers in 1974 — remain the gold standard for wilderness preparedness. Every item below falls into one of the ten essential systems.
+            </div>
+
+            <div class="checklist-section">
+              <h3>Navigation</h3>
+              <ul class="checklist">
+                <li>Downloaded offline map (Gaia GPS or AllTrails)</li>
+                <li>Paper trail map (free at most park visitor centers)</li>
+                <li>Compass (even if you use a phone)</li>
+                <li>Park permit / reservation confirmation</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Sun Protection</h3>
+              <ul class="checklist">
+                <li>Sunscreen SPF 30+ (apply before leaving)</li>
+                <li>Lip balm with SPF</li>
+                <li>Sunglasses (UV400)</li>
+                <li>Wide-brim hat or buff</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Insulation</h3>
+              <ul class="checklist">
+                <li>Moisture-wicking base layer</li>
+                <li>Mid-layer (fleece or down jacket)</li>
+                <li>Waterproof / wind-resistant shell</li>
+                <li>Extra socks (wool recommended)</li>
+                <li>Gloves or liner gloves (for alpine parks)</li>
+                <li>Beanie / warm hat (above treeline)</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Illumination</h3>
+              <ul class="checklist">
+                <li>Headlamp (not a phone torch)</li>
+                <li>Extra batteries or charged power bank</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>First Aid</h3>
+              <ul class="checklist">
+                <li>Blister treatment (moleskin / Leukotape)</li>
+                <li>Antiseptic wipes and antibiotic ointment</li>
+                <li>Bandages and medical tape</li>
+                <li>Ibuprofen / acetaminophen</li>
+                <li>Antihistamine (for bee stings / allergies)</li>
+                <li>Personal medications + prescription copy</li>
+                <li>Emergency whistle</li>
+                <li>Emergency mylar blanket</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Fire (emergency use only)</h3>
+              <ul class="checklist">
+                <li>Waterproof matches or lighter</li>
+                <li>Fire starter (tinder tabs or fatwood)</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Repair Tools &amp; Knife</h3>
+              <ul class="checklist">
+                <li>Multi-tool or pocket knife</li>
+                <li>Duct tape (wrapped around a water bottle saves space)</li>
+                <li>Trekking poles (optional; highly recommended for steep trails)</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Nutrition</h3>
+              <ul class="checklist">
+                <li>High-energy snacks (trail mix, bars, jerky)</li>
+                <li>Extra day's food beyond your planned amount</li>
+                <li>Lunch or packed meal</li>
+                <li>Electrolyte packets (critical in desert parks)</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Hydration</h3>
+              <ul class="checklist">
+                <li>2L water minimum per person per day (desert: 4L)</li>
+                <li>Water filter or purification tablets</li>
+                <li>Hydration bladder or sturdy water bottles</li>
+              </ul>
+            </div>
+
+            <div class="checklist-section">
+              <h3>Emergency Shelter</h3>
+              <ul class="checklist">
+                <li>Emergency bivy or space blanket</li>
+                <li>Rain poncho (doubles as emergency shelter)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h2>🏕️ Overnight &amp; Backpacking Additions</h2>
+            <div class="checklist-section">
+              <ul class="checklist">
+                <li>Backcountry permit (book via Recreation.gov)</li>
+                <li>Bear canister or hang system (required in many parks)</li>
+                <li>Tent or tarp with stakes</li>
+                <li>Sleeping bag rated for expected lows + 10°F</li>
+                <li>Sleeping pad (insulated for cold ground)</li>
+                <li>Backpacking stove + fuel canister</li>
+                <li>Cookpot, spork, and camp mug</li>
+                <li>Freeze-dried or lightweight meals</li>
+                <li>Water filter (mandatory for backcountry)</li>
+                <li>Trowel (cat holes 6–8 in deep, 200 ft from water)</li>
+                <li>Waste bags and pack-out kit</li>
+                <li>Biodegradable soap (use 200 ft from water)</li>
+                <li>Stuff sacks for food smell-proofing</li>
+                <li>Power bank for GPS / phone</li>
+                <li>Satellite communicator (e.g., Garmin inReach) — strongly recommended</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h2>🏔️ Park-Specific Add-Ons</h2>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+              <div>
+                <h3 style="font-size:1rem;color:var(--primary);margin-bottom:0.5rem">🌵 Desert Parks<br><small style="font-weight:400;color:var(--text-muted)">(Arches, Joshua Tree, Grand Canyon inner canyon)</small></h3>
+                <ul class="checklist" style="grid-template-columns:1fr">
+                  <li>4L+ water per person per day</li>
+                  <li>Electrolytes (vital — plain water isn't enough)</li>
+                  <li>Sun hoody or UPF shirt</li>
+                  <li>Cooling towel or misting bottle</li>
+                  <li>Gaiters (sand in shoes is miserable)</li>
+                  <li>Start hiking before 7 AM in summer</li>
+                </ul>
+              </div>
+              <div>
+                <h3 style="font-size:1rem;color:var(--primary);margin-bottom:0.5rem">🧊 Alpine / Glacier Parks<br><small style="font-weight:400;color:var(--text-muted)">(Glacier, Grand Teton, Rocky Mountain)</small></h3>
+                <ul class="checklist" style="grid-template-columns:1fr">
+                  <li>Crampons or Microspikes (shoulder seasons)</li>
+                  <li>Ice axe (technical routes)</li>
+                  <li>Bear spray (grizzly country)</li>
+                  <li>Avalanche awareness (winter)</li>
+                  <li>Layering system — weather changes fast</li>
+                </ul>
+              </div>
+              <div>
+                <h3 style="font-size:1rem;color:var(--primary);margin-bottom:0.5rem">🌊 Coastal / Rainforest Parks<br><small style="font-weight:400;color:var(--text-muted)">(Acadia, Olympic)</small></h3>
+                <ul class="checklist" style="grid-template-columns:1fr">
+                  <li>Waterproof jacket (rain every day)</li>
+                  <li>Waterproof boots or gaiters</li>
+                  <li>Dry bags for electronics</li>
+                  <li>Tide chart (for coastal hikes)</li>
+                  <li>Fleece or wool layers (damp cold)</li>
+                </ul>
+              </div>
+              <div>
+                <h3 style="font-size:1rem;color:var(--primary);margin-bottom:0.5rem">🌊 Slot Canyon Hikes<br><small style="font-weight:400;color:var(--text-muted)">(Zion Narrows, Fiery Furnace)</small></h3>
+                <ul class="checklist" style="grid-template-columns:1fr">
+                  <li>Wetsuit or drysuit (Narrows in spring/fall)</li>
+                  <li>Neoprene socks and canyoneering boots</li>
+                  <li>Trekking poles for river crossing</li>
+                  <li>Waterproof pack or dry bag</li>
+                  <li>Flash flood weather check before entry</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h2>🐻 Wildlife Safety Essentials</h2>
+            <div class="warning-box">
+              ⚠️ <strong>Bear country:</strong> Carry and know how to use bear spray in grizzly habitat (Yellowstone, Grand Teton, Glacier, Denali). Practice deploying it before you hike.
+            </div>
+            <ul class="checklist" style="grid-template-columns:1fr">
+              <li>Bear spray (grizzly parks — not optional)</li>
+              <li>Bear canister or bear hang system (backcountry)</li>
+              <li>Snake bite first aid knowledge (not a kit — kits don't work; evacuate)</li>
+              <li>Know park-specific wildlife distances (100 yd from bears/wolves, 25 yd from others)</li>
+            </ul>
+          </div>
+
+          <div style="text-align:center;padding:2rem 0">
+            <a href="leave-no-trace.html" class="btn btn-primary" style="margin-right:1rem">🌿 Leave No Trace Principles</a>
+            <a href="../itineraries/" class="btn btn-outline">🗓️ Sample Itineraries</a>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>Data: <a href="https://www.nps.gov">National Park Service</a> &bull; License: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+      </div>
+    </footer>
+
+  </body>
+</html>
