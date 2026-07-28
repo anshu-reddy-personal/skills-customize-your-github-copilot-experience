@@ -225,7 +225,16 @@ class ParkDetailPage {
 
   showError(msg) {
     const main = document.getElementById("park-main");
-    if (main) main.innerHTML = `<div class="container"><div class="error" style="margin-top:2rem">${msg}</div></div>`;
+    if (!main) return;
+    const wrapper = document.createElement("div");
+    wrapper.className = "container";
+    const box = document.createElement("div");
+    box.className = "error";
+    box.style.marginTop = "2rem";
+    box.textContent = msg;
+    wrapper.appendChild(box);
+    main.innerHTML = "";
+    main.appendChild(wrapper);
   }
 
   // ── Helpers ────────────────────────────────────────────────────────────────
