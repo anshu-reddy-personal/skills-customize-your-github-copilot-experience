@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A curated ranking of the top 15 US National Parks with detailed visitor information, trail guides, wildlife notes, and more." />
+    <title>Top US National Parks | Ranked &amp; Reviewed</title>
+    <link rel="stylesheet" href="css/parks.css" />
+    <!-- Leaflet CSS for interactive map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  </head>
+  <body>
+
+    <!-- ── Site Header ───────────────────────────────────────────────── -->
+    <header class="site-header">
+      <div class="container">
+        <div class="header-text">
+          <h1>🏞️ Top US National Parks</h1>
+          <p>A ranked guide to the 15 greatest national parks in the United States</p>
+        </div>
+        <div class="header-badge" aria-hidden="true">🦅</div>
+      </div>
+    </header>
+
+    <!-- ── Navigation ────────────────────────────────────────────────── -->
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" class="active">🏆 Rankings</a></li>
+        <li><a href="#map-section">🗺️ Map</a></li>
+        <li><a href="#methodology-section">📊 Methodology</a></li>
+        <li><a href="guides/packing-list.html">🎒 Packing List</a></li>
+        <li><a href="guides/leave-no-trace.html">🌿 Leave No Trace</a></li>
+        <li><a href="itineraries/">🗓️ Itineraries</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <!-- ── Intro ─────────────────────────────────────────────────────── -->
+      <section class="intro-section">
+        <div class="container">
+          <h2>The 15 Best National Parks in the United States</h2>
+          <p>Each park is scored on a transparent blend of annual visitation, iconic status,
+             biodiversity, scenery, and accessibility. Click any card to explore trails,
+             wildlife, entrance fees, best seasons, and must-see highlights.</p>
+        </div>
+      </section>
+
+      <!-- ── Parks Grid ─────────────────────────────────────────────────── -->
+      <section class="parks-section">
+        <div class="container">
+          <h2>Park Rankings</h2>
+          <div id="parks-grid" class="parks-grid">
+            <div class="loading">Loading parks…</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Interactive Map ────────────────────────────────────────────── -->
+      <section class="map-section" id="map-section">
+        <div class="container">
+          <h2>🗺️ Park Locations</h2>
+          <p style="color:var(--text-muted);margin-bottom:1rem">
+            Click any numbered marker to learn about a park. Numbers correspond to park rankings.
+          </p>
+          <div id="parks-map"></div>
+        </div>
+      </section>
+
+      <!-- ── Ranking Methodology ────────────────────────────────────────── -->
+      <section class="methodology-section" id="methodology-section">
+        <div class="container">
+          <h2>📊 Ranking Methodology</h2>
+          <p>
+            Rankings are determined by a weighted composite score across five factors.
+            Raw data comes from the National Park Service, IUCN species records, and
+            visitor survey data updated annually. Each factor is scored 1–10 and multiplied
+            by its weight to produce a final composite score.
+          </p>
+          <div id="methodology-factors" class="factors-grid">
+            <!-- Rendered by parks.js -->
+          </div>
+          <p style="margin-top:1.5rem;font-size:0.9rem;color:var(--text-muted)">
+            <strong>Data sources:</strong> NPS Stats (irma.nps.gov), IUCN Red List,
+            NPS biodiversity databases, and editorial review. Rankings are subjective
+            and intended as a starting point for exploration rather than a definitive list.
+            See
+            <a href="https://github.com/anshu-reddy-personal/skills-customize-your-github-copilot-experience/blob/main/national-parks/README.md">README.md</a>
+            for full methodology documentation.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ── Footer ────────────────────────────────────────────────────── -->
+    <footer class="site-footer">
+      <div class="container">
+        <span>
+          Data: <a href="https://www.nps.gov" target="_blank" rel="noopener">National Park Service</a>
+          &bull; License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+        </span>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="guides/packing-list.html">Packing List</a>
+          <a href="guides/leave-no-trace.html">Leave No Trace</a>
+          <a href="itineraries/">Itineraries</a>
+          <a href="https://github.com/anshu-reddy-personal/skills-customize-your-github-copilot-experience/blob/main/national-parks/CONTRIBUTING.md">Contribute</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
+    <script src="js/parks.js"></script>
+  </body>
+</html>

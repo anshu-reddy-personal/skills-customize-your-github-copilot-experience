@@ -1,0 +1,1758 @@
+{
+  "metadata": {
+    "title": "Top US National Parks",
+    "description": "A curated ranking of the top 15 national parks in the United States based on visitation, iconic status, biodiversity, scenery, and accessibility.",
+    "rankingMethodology": {
+      "factors": [
+        {
+          "name": "Visitation",
+          "weight": 0.25,
+          "description": "Annual visitor count as reported by the National Park Service"
+        },
+        {
+          "name": "Iconic Status",
+          "weight": 0.25,
+          "description": "Cultural recognition, photography, and global name recognition"
+        },
+        {
+          "name": "Biodiversity",
+          "weight": 0.2,
+          "description": "Number of plant, animal, and ecosystem types within the park"
+        },
+        {
+          "name": "Scenery",
+          "weight": 0.2,
+          "description": "Landscape variety, geological features, and visual impact"
+        },
+        {
+          "name": "Accessibility",
+          "weight": 0.1,
+          "description": "Infrastructure, ADA compliance, road access, and gateway airports"
+        }
+      ],
+      "dataSource": "NPS annual statistics, IUCN species records, and visitor survey data",
+      "lastUpdated": "2024"
+    },
+    "license": "CC BY 4.0",
+    "source": "https://www.nps.gov"
+  },
+  "parks": [
+    {
+      "id": "yellowstone",
+      "rank": 1,
+      "name": "Yellowstone",
+      "state": [
+        "Wyoming",
+        "Montana",
+        "Idaho"
+      ],
+      "established": 1872,
+      "area_acres": 2219791,
+      "annual_visitors": 4860000,
+      "scores": {
+        "visitation": 9,
+        "iconic_status": 10,
+        "biodiversity": 10,
+        "scenery": 10,
+        "accessibility": 8
+      },
+      "overview": "The world's first national park, Yellowstone sits atop a supervolcano and contains more than half of Earth's geothermal features\u2014over 10,000 hydrothermal sites including geysers, hot springs, mud pots, and fumaroles. Its vast wilderness supports the largest bison herd in the US and thriving populations of wolves, bears, and elk.",
+      "highlights": [
+        "Old Faithful Geyser",
+        "Grand Prismatic Spring",
+        "Yellowstone Lake",
+        "Lamar Valley wildlife corridor",
+        "Grand Canyon of the Yellowstone",
+        "Norris Geyser Basin",
+        "Mammoth Hot Springs"
+      ],
+      "best_seasons": {
+        "peak": [
+          "June",
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "May",
+          "September"
+        ],
+        "avoid": [
+          "November",
+          "December",
+          "January",
+          "February",
+          "March"
+        ],
+        "notes": "Summer offers the best road access and wildlife viewing. May and September are less crowded with mild weather. Most roads close November through April."
+      },
+      "must_see_features": [
+        "Watch Old Faithful erupt\u2014approximately every 90 minutes",
+        "Hike to the rim of Grand Prismatic Spring for the aerial rainbow view",
+        "Dawn wildlife patrol in Lamar Valley for wolves and bison",
+        "Walk the boardwalk at Norris Geyser Basin",
+        "View the Lower Falls from Artist Point"
+      ],
+      "trails": [
+        {
+          "name": "Grand Prismatic Overlook",
+          "difficulty": "Easy",
+          "distance_miles": 1.6,
+          "notes": "Best aerial view of the spring"
+        },
+        {
+          "name": "Mount Washburn",
+          "difficulty": "Moderate",
+          "distance_miles": 6.4,
+          "notes": "360\u00b0 panoramic views, bighorn sheep sightings"
+        },
+        {
+          "name": "Fairy Falls",
+          "difficulty": "Easy",
+          "distance_miles": 6.0,
+          "notes": "197-ft waterfall with Grand Prismatic view"
+        },
+        {
+          "name": "Shoshone Lake Trail",
+          "difficulty": "Strenuous",
+          "distance_miles": 22.0,
+          "notes": "Backcountry permit required; remote geothermal lake"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Bison",
+          "Gray wolf",
+          "Grizzly bear",
+          "Black bear",
+          "Elk",
+          "Moose",
+          "Pronghorn",
+          "Mountain lion"
+        ],
+        "birds": [
+          "Trumpeter swan",
+          "Sandhill crane",
+          "Osprey",
+          "Bald eagle"
+        ],
+        "notes": "Yellowstone holds the only continuously wild bison herd in the US. Keep 100 yards from bears and wolves, 25 yards from other wildlife."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "America the Beautiful annual pass ($80) covers all NPS fee areas."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/yell/",
+        "plan_your_visit": "https://www.nps.gov/yell/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/yell/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/yellowstone.jpg",
+      "photo_credit": "Photo: NPS / Jim Peaco",
+      "coordinates": {
+        "lat": 44.428,
+        "lng": -110.5885
+      }
+    },
+    {
+      "id": "grand-canyon",
+      "rank": 2,
+      "name": "Grand Canyon",
+      "state": [
+        "Arizona"
+      ],
+      "established": 1919,
+      "area_acres": 1217403,
+      "annual_visitors": 4730000,
+      "scores": {
+        "visitation": 9,
+        "iconic_status": 10,
+        "biodiversity": 8,
+        "scenery": 10,
+        "accessibility": 9
+      },
+      "overview": "One of the Seven Natural Wonders of the World, the Grand Canyon stretches 277 miles long, up to 18 miles wide, and more than a mile deep. The canyon's layered bands of colorful rock represent nearly two billion years of Earth's geological history. The Colorado River continues to carve it deeper each year.",
+      "highlights": [
+        "South Rim overlooks",
+        "North Rim (less crowded, higher elevation)",
+        "Colorado River rafting",
+        "Bright Angel Trail",
+        "Desert View Watchtower",
+        "Phantom Ranch"
+      ],
+      "best_seasons": {
+        "peak": [
+          "March",
+          "April",
+          "May",
+          "September",
+          "October"
+        ],
+        "shoulder": [
+          "November",
+          "February"
+        ],
+        "avoid": [
+          "June",
+          "July",
+          "August"
+        ],
+        "notes": "Spring and fall are ideal\u2014mild temperatures and manageable crowds. Summer inner-canyon temperatures regularly exceed 110\u00b0F. The North Rim is open mid-May through mid-October only."
+      },
+      "must_see_features": [
+        "Sunrise or sunset from Mather Point or Yavapai Point",
+        "Hike partway down Bright Angel Trail",
+        "Drive or walk the Rim Trail between overlooks",
+        "Ranger-led geology talks at Yavapai Geology Museum",
+        "Visit Desert View Watchtower for panoramic canyon views"
+      ],
+      "trails": [
+        {
+          "name": "Rim Trail",
+          "difficulty": "Easy",
+          "distance_miles": 13.0,
+          "notes": "Paved sections; wheelchair accessible portions; spectacular views throughout"
+        },
+        {
+          "name": "Bright Angel Trail to 1.5-mile rest house",
+          "difficulty": "Moderate",
+          "distance_miles": 3.0,
+          "notes": "Only hike down as far as you plan to hike back; inner canyon heat is dangerous"
+        },
+        {
+          "name": "South Kaibab to Skeleton Point",
+          "difficulty": "Strenuous",
+          "distance_miles": 6.0,
+          "notes": "No shade; stunning views; start before dawn in summer"
+        },
+        {
+          "name": "Bright Angel to Phantom Ranch (rim to river)",
+          "difficulty": "Strenuous",
+          "distance_miles": 19.5,
+          "notes": "Overnight trip; permit and reservation required"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "California condor",
+          "Mule deer",
+          "Desert bighorn sheep",
+          "Ringtail cat",
+          "Rock squirrel",
+          "Coyote"
+        ],
+        "birds": [
+          "California condor",
+          "Common raven",
+          "Peregrine falcon",
+          "Canyon wren"
+        ],
+        "notes": "Do not feed wildlife. California condors nest in the canyon\u2014report any tagged birds to rangers."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Fees valid for 7 days. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/grca/",
+        "plan_your_visit": "https://www.nps.gov/grca/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/grca/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/grand-canyon.jpg",
+      "photo_credit": "Photo: NPS / Michael Quinn",
+      "coordinates": {
+        "lat": 36.1069,
+        "lng": -112.1129
+      }
+    },
+    {
+      "id": "yosemite",
+      "rank": 3,
+      "name": "Yosemite",
+      "state": [
+        "California"
+      ],
+      "established": 1890,
+      "area_acres": 747956,
+      "annual_visitors": 3900000,
+      "scores": {
+        "visitation": 8,
+        "iconic_status": 10,
+        "biodiversity": 9,
+        "scenery": 10,
+        "accessibility": 8
+      },
+      "overview": "Yosemite Valley's towering granite cliffs, roaring waterfalls, and ancient giant sequoias have inspired artists, photographers, and conservationists for over a century. The park shelters 800+ species of plants, 400+ bird species, and iconic landmarks like El Capitan and Half Dome that define the American wilderness ideal.",
+      "highlights": [
+        "Yosemite Valley",
+        "El Capitan (granite monolith, 3,000 ft vertical)",
+        "Half Dome",
+        "Yosemite Falls (North America's tallest waterfall)",
+        "Mariposa Grove giant sequoias",
+        "Glacier Point panorama"
+      ],
+      "best_seasons": {
+        "peak": [
+          "May",
+          "June",
+          "July",
+          "August",
+          "September"
+        ],
+        "shoulder": [
+          "April",
+          "October"
+        ],
+        "avoid": [
+          "December",
+          "January",
+          "February"
+        ],
+        "notes": "Yosemite Valley requires a timed-entry reservation May\u2013September. Waterfalls peak in late April to early June. Fall brings colorful foliage and far fewer crowds."
+      },
+      "must_see_features": [
+        "View El Capitan and Half Dome from Tunnel View at sunrise",
+        "Hike to Yosemite Falls viewpoint",
+        "Stand among the giant sequoias in Mariposa Grove",
+        "Drive or take the shuttle to Glacier Point for a valley panorama",
+        "Watch rock climbers on El Capitan at El Cap Meadow"
+      ],
+      "trails": [
+        {
+          "name": "Valley Floor Loop",
+          "difficulty": "Easy",
+          "distance_miles": 11.5,
+          "notes": "Flat paved and dirt loop; great for cycling or leisurely walking"
+        },
+        {
+          "name": "Yosemite Falls Trail",
+          "difficulty": "Strenuous",
+          "distance_miles": 7.2,
+          "notes": "Climbs 2,700 ft; best in spring when falls are fullest"
+        },
+        {
+          "name": "Half Dome via cables",
+          "difficulty": "Strenuous",
+          "distance_miles": 14.2,
+          "notes": "Permit required May\u2013Oct; cables up final granite dome; physically demanding"
+        },
+        {
+          "name": "Sentinel Dome",
+          "difficulty": "Moderate",
+          "distance_miles": 2.2,
+          "notes": "360\u00b0 panoramic views; one of the most scenic short hikes in the park"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Black bear",
+          "Mule deer",
+          "Coyote",
+          "Bobcat",
+          "Bighorn sheep",
+          "Mountain lion"
+        ],
+        "birds": [
+          "Steller's jay",
+          "Peregrine falcon",
+          "Spotted owl",
+          "American dipper"
+        ],
+        "notes": "Use bear canisters or park-provided bear boxes for all food. Black bears are active\u2014do not approach or feed them."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Timed entry reservations are required peak season ($2 reservation fee). America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/yose/",
+        "plan_your_visit": "https://www.nps.gov/yose/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/yose/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/yosemite.jpg",
+      "photo_credit": "Photo: NPS / Yosemite National Park",
+      "coordinates": {
+        "lat": 37.8651,
+        "lng": -119.5383
+      }
+    },
+    {
+      "id": "zion",
+      "rank": 4,
+      "name": "Zion",
+      "state": [
+        "Utah"
+      ],
+      "established": 1919,
+      "area_acres": 147551,
+      "annual_visitors": 4690000,
+      "scores": {
+        "visitation": 9,
+        "iconic_status": 9,
+        "biodiversity": 7,
+        "scenery": 10,
+        "accessibility": 8
+      },
+      "overview": "Zion's towering red and white sandstone cliffs rise above the winding Virgin River, creating one of the most dramatic canyon landscapes in North America. The park is famous for narrow slot canyons, technical canyoneering, and the celebrated Angels Landing summit with its chain-assisted ascent.",
+      "highlights": [
+        "The Narrows (slot canyon hike in the Virgin River)",
+        "Angels Landing",
+        "Emerald Pools",
+        "Canyon Overlook Trail",
+        "Kolob Canyons",
+        "Watchman Trail"
+      ],
+      "best_seasons": {
+        "peak": [
+          "March",
+          "April",
+          "May",
+          "September",
+          "October"
+        ],
+        "shoulder": [
+          "November",
+          "February"
+        ],
+        "avoid": [
+          "June",
+          "July",
+          "August"
+        ],
+        "notes": "Spring and fall are ideal. Summer is extremely hot in the canyon (100\u00b0F+). Flash flood season July\u2013September makes The Narrows dangerous. Crowds peak in summer; spring is busiest overall."
+      },
+      "must_see_features": [
+        "Hike The Narrows upstream through the Virgin River",
+        "Summit Angels Landing (permit required) for canyon panoramas",
+        "Walk to Lower and Middle Emerald Pools",
+        "Ride the free park shuttle through Zion Canyon Scenic Drive",
+        "Drive the Zion-Mount Carmel Highway through tunnels and switchbacks"
+      ],
+      "trails": [
+        {
+          "name": "Riverside Walk",
+          "difficulty": "Easy",
+          "distance_miles": 2.2,
+          "notes": "Paved; leads into The Narrows; wheelchair accessible to a point"
+        },
+        {
+          "name": "Canyon Overlook",
+          "difficulty": "Moderate",
+          "distance_miles": 1.0,
+          "notes": "Best views for minimal effort; starts just east of the long tunnel"
+        },
+        {
+          "name": "Angels Landing",
+          "difficulty": "Strenuous",
+          "distance_miles": 5.4,
+          "notes": "Permit required; chain-assisted final ascent; exposure to heights; not for acrophobes"
+        },
+        {
+          "name": "The Narrows",
+          "difficulty": "Strenuous",
+          "distance_miles": 16.0,
+          "notes": "Full one-way route requires permit; wetsuit rental recommended in spring/fall"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Mule deer",
+          "California condor",
+          "Desert bighorn sheep",
+          "Ringtail",
+          "Coyote"
+        ],
+        "birds": [
+          "California condor",
+          "Peregrine falcon",
+          "White-throated swift",
+          "Canyon wren"
+        ],
+        "notes": "California condors roost on canyon walls\u2014look up! Keep distance from all wildlife."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Private vehicles prohibited on Zion Canyon Scenic Drive\u2014use the free shuttle. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/zion/",
+        "plan_your_visit": "https://www.nps.gov/zion/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/zion/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/zion.jpg",
+      "photo_credit": "Photo: NPS / Jacob W. Frank",
+      "coordinates": {
+        "lat": 37.2982,
+        "lng": -113.0263
+      }
+    },
+    {
+      "id": "grand-teton",
+      "rank": 5,
+      "name": "Grand Teton",
+      "state": [
+        "Wyoming"
+      ],
+      "established": 1929,
+      "area_acres": 310044,
+      "annual_visitors": 3300000,
+      "scores": {
+        "visitation": 7,
+        "iconic_status": 9,
+        "biodiversity": 9,
+        "scenery": 10,
+        "accessibility": 8
+      },
+      "overview": "Grand Teton's dramatic skyline\u2014a jagged 40-mile wall of peaks rising abruptly from the Jackson Hole valley floor\u2014provides some of the most photogenic mountain scenery in North America. The park lies adjacent to Yellowstone and shares a rich wildlife ecosystem with moose, wolves, and bears.",
+      "highlights": [
+        "Teton Range mountain skyline",
+        "Jenny Lake",
+        "Snake River Overlook (Ansel Adams photo site)",
+        "Mormon Row historic barns",
+        "Jackson Lake",
+        "Cascade Canyon"
+      ],
+      "best_seasons": {
+        "peak": [
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "June",
+          "September"
+        ],
+        "avoid": [
+          "November",
+          "December",
+          "January",
+          "February",
+          "March",
+          "April"
+        ],
+        "notes": "Summer offers full trail access and wildlife activity. September has golden aspen groves and reduced crowds. Winter allows snowshoeing and Nordic skiing. Most facilities closed November\u2013May."
+      },
+      "must_see_features": [
+        "Photograph Snake River Overlook at sunrise or golden hour",
+        "Take the ferry across Jenny Lake and hike to Hidden Falls",
+        "Drive to Mormon Row and photograph the Moulton Barn with the Tetons behind",
+        "Spot moose at Willow Flats near Jackson Lake Lodge at dawn or dusk",
+        "Summit Grand Teton (technical climb with guide recommended)"
+      ],
+      "trails": [
+        {
+          "name": "Jenny Lake Loop",
+          "difficulty": "Easy",
+          "distance_miles": 7.1,
+          "notes": "Flat lakeside trail; ferry shortcut available"
+        },
+        {
+          "name": "Hidden Falls & Inspiration Point",
+          "difficulty": "Moderate",
+          "distance_miles": 5.8,
+          "notes": "Take the ferry to Hidden Falls; climb to Inspiration Point overlook"
+        },
+        {
+          "name": "Cascade Canyon",
+          "difficulty": "Moderate",
+          "distance_miles": 9.0,
+          "notes": "Stunning canyon with wildlife; connects to South Fork or North Fork"
+        },
+        {
+          "name": "Paintbrush Divide Loop",
+          "difficulty": "Strenuous",
+          "distance_miles": 19.2,
+          "notes": "Backcountry permit required; one of the finest loops in the Tetons"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Moose",
+          "Grizzly bear",
+          "Black bear",
+          "Gray wolf",
+          "Elk",
+          "Pronghorn",
+          "River otter"
+        ],
+        "birds": [
+          "Bald eagle",
+          "Osprey",
+          "Common loon",
+          "Trumpeter swan",
+          "Great gray owl"
+        ],
+        "notes": "Moose are extremely common around Willow Flats and along the Snake River. Give all large mammals at least 100 yards of space."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Combined pass with Yellowstone available. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/grte/",
+        "plan_your_visit": "https://www.nps.gov/grte/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/grte/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/grand-teton.jpg",
+      "photo_credit": "Photo: NPS / Neal Herbert",
+      "coordinates": {
+        "lat": 43.7904,
+        "lng": -110.6818
+      }
+    },
+    {
+      "id": "glacier",
+      "rank": 6,
+      "name": "Glacier",
+      "state": [
+        "Montana"
+      ],
+      "established": 1910,
+      "area_acres": 1013572,
+      "annual_visitors": 3080000,
+      "scores": {
+        "visitation": 7,
+        "iconic_status": 9,
+        "biodiversity": 10,
+        "scenery": 10,
+        "accessibility": 6
+      },
+      "overview": "Called the 'Crown of the Continent,' Glacier National Park preserves over a million acres of pristine wilderness on the US\u2013Canada border. The park holds 25 active glaciers (down from 150 in 1910), 700+ miles of trails, and exceptional biodiversity including grizzly bears, wolverines, and mountain goats.",
+      "highlights": [
+        "Going-to-the-Sun Road (historic alpine highway)",
+        "Many Glacier valley",
+        "Grinnell Glacier",
+        "Hidden Lake Overlook",
+        "Two Medicine Valley",
+        "Lake McDonald"
+      ],
+      "best_seasons": {
+        "peak": [
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "June",
+          "September"
+        ],
+        "avoid": [
+          "October",
+          "November",
+          "December",
+          "January",
+          "February",
+          "March",
+          "April"
+        ],
+        "notes": "Going-to-the-Sun Road typically opens fully in late June\u2013early July and closes mid-October. Vehicle reservations required July\u2013September. Winter access limited to lower valleys."
+      },
+      "must_see_features": [
+        "Drive Going-to-the-Sun Road from west to east at sunrise",
+        "Hike to Grinnell Glacier before it disappears completely",
+        "Spot mountain goats at Hidden Lake Overlook near Logan Pass",
+        "Explore Many Glacier by kayak or rowboat",
+        "Watch grizzly bears digging for glacier lily bulbs in late June"
+      ],
+      "trails": [
+        {
+          "name": "Hidden Lake Overlook",
+          "difficulty": "Moderate",
+          "distance_miles": 2.7,
+          "notes": "Starts at Logan Pass Visitor Center; mountain goats nearly guaranteed"
+        },
+        {
+          "name": "Highline Trail",
+          "difficulty": "Moderate",
+          "distance_miles": 11.8,
+          "notes": "One-way along the Continental Divide; exposed ledge at start; shuttle back from The Loop"
+        },
+        {
+          "name": "Grinnell Glacier",
+          "difficulty": "Strenuous",
+          "distance_miles": 10.6,
+          "notes": "Boat shortcut available; one of the few remaining accessible glaciers"
+        },
+        {
+          "name": "Iceberg Lake",
+          "difficulty": "Moderate",
+          "distance_miles": 9.7,
+          "notes": "Icebergs float in the lake into August; grizzly bear country\u2014bear spray required"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Grizzly bear",
+          "Gray wolf",
+          "Mountain goat",
+          "Bighorn sheep",
+          "Wolverine",
+          "Lynx",
+          "Moose"
+        ],
+        "birds": [
+          "Harlequin duck",
+          "White-tailed ptarmigan",
+          "Golden eagle",
+          "Clark's nutcracker"
+        ],
+        "notes": "Glacier has one of the highest grizzly densities in the Lower 48. Bear spray is strongly recommended on all trails."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Going-to-the-Sun Road vehicle reservations required July\u2013September ($2 fee). America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/glac/",
+        "plan_your_visit": "https://www.nps.gov/glac/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/glac/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/glacier.jpg",
+      "photo_credit": "Photo: NPS / Tim Rains",
+      "coordinates": {
+        "lat": 48.6963,
+        "lng": -113.718
+      }
+    },
+    {
+      "id": "rocky-mountain",
+      "rank": 7,
+      "name": "Rocky Mountain",
+      "state": [
+        "Colorado"
+      ],
+      "established": 1915,
+      "area_acres": 265807,
+      "annual_visitors": 4400000,
+      "scores": {
+        "visitation": 9,
+        "iconic_status": 8,
+        "biodiversity": 8,
+        "scenery": 9,
+        "accessibility": 9
+      },
+      "overview": "Rocky Mountain National Park encompasses stunning alpine scenery that spans from montane forests to tundra above treeline. Trail Ridge Road, the highest continuous paved road in the US at 12,183 ft, crosses the Continental Divide and opens the alpine world to all visitors. The park is a stronghold for elk, moose, and bighorn sheep.",
+      "highlights": [
+        "Trail Ridge Road (highest continuous paved road in the US)",
+        "Bear Lake and surrounding trail network",
+        "Elk rut in Moraine Park (September\u2013October)",
+        "Longs Peak (14,259 ft, highest in park)",
+        "Hallett Peak views from Dream Lake",
+        "Wild Basin waterfalls"
+      ],
+      "best_seasons": {
+        "peak": [
+          "June",
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "May",
+          "September",
+          "October"
+        ],
+        "avoid": [
+          "November",
+          "December",
+          "January",
+          "February",
+          "March"
+        ],
+        "notes": "Timed entry reservations required May\u2013October. September is spectacular for elk rut in Moraine Park. Trail Ridge Road typically open late May through October."
+      },
+      "must_see_features": [
+        "Drive Trail Ridge Road to Alpine Visitor Center and walk on the tundra",
+        "Watch the elk rut at Moraine Park in September at dawn",
+        "Hike to Emerald Lake through Bear Lake, Nymph Lake, and Dream Lake",
+        "Spot bighorn sheep on Horseshoe Park near the Fall River entrance",
+        "Summit Longs Peak (permit required July\u2013Sept) for ultimate Colorado experience"
+      ],
+      "trails": [
+        {
+          "name": "Bear Lake to Emerald Lake",
+          "difficulty": "Easy",
+          "distance_miles": 3.6,
+          "notes": "Most popular trail network; accessible; mountain reflections in each lake"
+        },
+        {
+          "name": "Alberta Falls",
+          "difficulty": "Easy",
+          "distance_miles": 1.6,
+          "notes": "Quick waterfall hike; great for all fitness levels"
+        },
+        {
+          "name": "Flattop Mountain",
+          "difficulty": "Strenuous",
+          "distance_miles": 8.8,
+          "notes": "Access to the Continental Divide; great alpine views"
+        },
+        {
+          "name": "Longs Peak Keyhole Route",
+          "difficulty": "Strenuous",
+          "distance_miles": 14.5,
+          "notes": "14er; permit required July\u2013Sept; start by 3 AM to avoid afternoon lightning"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Elk",
+          "Moose",
+          "Bighorn sheep",
+          "Rocky Mountain mule deer",
+          "Black bear",
+          "Coyote",
+          "Pika"
+        ],
+        "birds": [
+          "White-tailed ptarmigan",
+          "Stellar's jay",
+          "American dipper",
+          "Clark's nutcracker"
+        ],
+        "notes": "Elk are highly visible in Moraine Park during the September rut. Stay 75 feet from elk, especially bulls during rut."
+      },
+      "entrance_fees": {
+        "vehicle": 30,
+        "motorcycle": 25,
+        "individual": 15,
+        "annual_pass": 55,
+        "currency": "USD",
+        "notes": "Timed entry reservations ($2) required May through October. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/romo/",
+        "plan_your_visit": "https://www.nps.gov/romo/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/romo/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/rocky-mountain.jpg",
+      "photo_credit": "Photo: NPS / Rocky Mountain National Park",
+      "coordinates": {
+        "lat": 40.3428,
+        "lng": -105.6836
+      }
+    },
+    {
+      "id": "acadia",
+      "rank": 8,
+      "name": "Acadia",
+      "state": [
+        "Maine"
+      ],
+      "established": 1919,
+      "area_acres": 49071,
+      "annual_visitors": 3970000,
+      "scores": {
+        "visitation": 8,
+        "iconic_status": 8,
+        "biodiversity": 8,
+        "scenery": 9,
+        "accessibility": 8
+      },
+      "overview": "Acadia is the only national park in New England, protecting stunning coastal and mountain scenery on Mount Desert Island and the surrounding coast. The park blends rocky shoreline, ocean views, and pink-granite summit ridges in one of the most accessible and beloved park experiences on the East Coast.",
+      "highlights": [
+        "Cadillac Mountain (first place in the US to see the sunrise, October\u2013March)",
+        "Park Loop Road",
+        "Jordan Pond and Popovers tradition",
+        "Thunder Hole",
+        "Bass Harbor Head Lighthouse",
+        "Carriage roads (45 miles of gravel, car-free roads)"
+      ],
+      "best_seasons": {
+        "peak": [
+          "July",
+          "August",
+          "October"
+        ],
+        "shoulder": [
+          "June",
+          "September"
+        ],
+        "avoid": [
+          "December",
+          "January",
+          "February"
+        ],
+        "notes": "October is spectacular for fall foliage. Summer brings lush greenery but also peak crowds. Timed sunrise reservations for Cadillac Mountain required May\u2013October."
+      },
+      "must_see_features": [
+        "Watch sunrise from Cadillac Mountain summit (reserve your spot in advance)",
+        "Walk the ocean path from Sand Beach to Thunder Hole to Otter Cliff",
+        "Bike the historic carriage roads (bike rentals available in Bar Harbor)",
+        "Eat Jordan Pond House popovers with a view of The Bubbles",
+        "Photograph Bass Harbor Head Lighthouse at golden hour"
+      ],
+      "trails": [
+        {
+          "name": "Ocean Path",
+          "difficulty": "Easy",
+          "distance_miles": 4.0,
+          "notes": "Flat, paved coastal walk with sea spray, tide pools, and dramatic rock faces"
+        },
+        {
+          "name": "The Beehive",
+          "difficulty": "Strenuous",
+          "distance_miles": 1.4,
+          "notes": "Iron rung ladder scramble; stunning ocean views; not for acrophobes"
+        },
+        {
+          "name": "Precipice Trail",
+          "difficulty": "Strenuous",
+          "distance_miles": 1.6,
+          "notes": "Highest-rated technical trail in park; iron rungs and exposed ledges"
+        },
+        {
+          "name": "Cadillac Mountain South Ridge",
+          "difficulty": "Moderate",
+          "distance_miles": 7.0,
+          "notes": "Best hiking route to the summit; pink granite underfoot; sweeping coastal panoramas"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "White-tailed deer",
+          "Harbor seal",
+          "Porpoise",
+          "Black bear",
+          "Peregrine falcon"
+        ],
+        "birds": [
+          "Peregrine falcon",
+          "Bald eagle",
+          "Common loon",
+          "Black guillemot",
+          "Atlantic puffin (nearby islands)"
+        ],
+        "notes": "Harbor seals frequent the rocky shores. Whale-watching boats depart from Bar Harbor for humpback and finback whales offshore."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Cadillac Summit Road reservation required sunrise\u20139 AM, May\u2013October ($6/vehicle). America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/acad/",
+        "plan_your_visit": "https://www.nps.gov/acad/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/acad/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/acadia.jpg",
+      "photo_credit": "Photo: NPS / Kristi Rugg",
+      "coordinates": {
+        "lat": 44.3386,
+        "lng": -68.2733
+      }
+    },
+    {
+      "id": "olympic",
+      "rank": 9,
+      "name": "Olympic",
+      "state": [
+        "Washington"
+      ],
+      "established": 1938,
+      "area_acres": 922650,
+      "annual_visitors": 3000000,
+      "scores": {
+        "visitation": 7,
+        "iconic_status": 8,
+        "biodiversity": 9,
+        "scenery": 9,
+        "accessibility": 7
+      },
+      "overview": "Olympic National Park is one of the most ecologically diverse parks in the system, encompassing temperate rainforests, wild Pacific coastline, alpine meadows, and glaciated peaks\u2014all within a single park. The Hoh Rain Forest receives up to 14 feet of rainfall per year, creating moss-draped forest of unparalleled lushness.",
+      "highlights": [
+        "Hoh Rain Forest",
+        "Hurricane Ridge (alpine meadows with Olympic Mountains)",
+        "Ruby Beach and Rialto Beach (wild Pacific coast)",
+        "Lake Crescent (glacially carved azure lake)",
+        "Sol Duc Hot Springs",
+        "Quinault Rain Forest"
+      ],
+      "best_seasons": {
+        "peak": [
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "June",
+          "September"
+        ],
+        "avoid": [],
+        "notes": "The park is accessible year-round, with different experiences each season. Rainforest visits are beautiful year-round. Hurricane Ridge may require tire chains October\u2013April. Coastal areas are spectacular in winter storms."
+      },
+      "must_see_features": [
+        "Walk the Hall of Mosses at Hoh Rain Forest",
+        "Drive to Hurricane Ridge for mountain views and wildflower meadows",
+        "Walk along Rialto Beach or Ruby Beach at low tide for sea stacks and tide pools",
+        "Swim or kayak in the impossibly blue Lake Crescent",
+        "Soak in the Sol Duc Hot Springs surrounded by old-growth forest"
+      ],
+      "trails": [
+        {
+          "name": "Hall of Mosses",
+          "difficulty": "Easy",
+          "distance_miles": 0.8,
+          "notes": "Most famous trail in the park; ancient big-leaf maples draped in moss"
+        },
+        {
+          "name": "Hoh River Trail",
+          "difficulty": "Easy",
+          "distance_miles": 17.4,
+          "notes": "Flat old-growth trail to Blue Glacier base camp (backcountry permit needed beyond Glacier Meadows)"
+        },
+        {
+          "name": "Hurricane Hill",
+          "difficulty": "Moderate",
+          "distance_miles": 3.2,
+          "notes": "Panoramic Olympic Mountains views; wildflowers mid-July"
+        },
+        {
+          "name": "Seven Lakes Basin Loop",
+          "difficulty": "Strenuous",
+          "distance_miles": 20.0,
+          "notes": "Premier backcountry loop; permit required; elk and alpine lakes"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Olympic elk (Roosevelt elk)",
+          "Black bear",
+          "Mountain goat",
+          "River otter",
+          "Sea otter",
+          "Harbor seal",
+          "Orca"
+        ],
+        "birds": [
+          "Marbled murrelet",
+          "Northern spotted owl",
+          "Bald eagle",
+          "Common murre"
+        ],
+        "notes": "Olympic is home to the Olympic elk subspecies found nowhere else. Coastal tide pools teem with purple sea urchins, sea stars, and anemones."
+      },
+      "entrance_fees": {
+        "vehicle": 30,
+        "motorcycle": 25,
+        "individual": 15,
+        "annual_pass": 55,
+        "currency": "USD",
+        "notes": "7-day pass. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/olym/",
+        "plan_your_visit": "https://www.nps.gov/olym/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/olym/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/olympic.jpg",
+      "photo_credit": "Photo: NPS / Russ Kerr",
+      "coordinates": {
+        "lat": 47.8021,
+        "lng": -123.6044
+      }
+    },
+    {
+      "id": "great-smoky-mountains",
+      "rank": 10,
+      "name": "Great Smoky Mountains",
+      "state": [
+        "Tennessee",
+        "North Carolina"
+      ],
+      "established": 1934,
+      "area_acres": 522427,
+      "annual_visitors": 13300000,
+      "scores": {
+        "visitation": 10,
+        "iconic_status": 6,
+        "biodiversity": 10,
+        "scenery": 6,
+        "accessibility": 8
+      },
+      "overview": "Great Smoky Mountains is the most visited national park in the US, and for good reason\u2014it is free to enter, easily accessible from the Eastern Seaboard, and harbors greater tree diversity than all of northern Europe. The ancient, misty Appalachian peaks support 19,000+ documented species including salamanders, black bears, fireflies, and wildflowers.",
+      "highlights": [
+        "Clingmans Dome (6,643 ft, highest point on the Appalachian Trail)",
+        "Cades Cove wildlife loop",
+        "Alum Cave Trail",
+        "Synchronous fireflies event (Elkmont, June)",
+        "Appalachian Trail access",
+        "Roaring Fork Motor Nature Trail"
+      ],
+      "best_seasons": {
+        "peak": [
+          "October",
+          "June"
+        ],
+        "shoulder": [
+          "May",
+          "September"
+        ],
+        "avoid": [],
+        "notes": "October peak fall foliage draws enormous crowds. The synchronous fireflies event in June requires advance lottery ticket. Spring wildflowers (April\u2013May) are spectacular. Park is free to enter year-round."
+      },
+      "must_see_features": [
+        "Drive the 11-mile Cades Cove loop for white-tailed deer, black bears, and historic homesteads",
+        "Walk or drive to Clingmans Dome for sunrise above the clouds",
+        "Hike to Alum Cave Bluffs in spring for wildflowers",
+        "Experience the synchronous fireflies display in Elkmont (lottery required)",
+        "Walk a short section of the Appalachian Trail from Newfound Gap"
+      ],
+      "trails": [
+        {
+          "name": "Laurel Falls",
+          "difficulty": "Easy",
+          "distance_miles": 2.6,
+          "notes": "Paved trail to the most visited waterfall in the park"
+        },
+        {
+          "name": "Alum Cave Trail to summit",
+          "difficulty": "Strenuous",
+          "distance_miles": 10.4,
+          "notes": "To Mt. LeConte summit; dramatic rock features along the way"
+        },
+        {
+          "name": "Chimney Tops",
+          "difficulty": "Strenuous",
+          "distance_miles": 4.0,
+          "notes": "Rocky summit scramble; closed periodically for restoration"
+        },
+        {
+          "name": "Appalachian Trail from Newfound Gap",
+          "difficulty": "Moderate",
+          "distance_miles": "varies",
+          "notes": "Begin on the AT at 5,046 ft; walk as far as you wish toward Charlie's Bunion (8 miles round-trip)"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Black bear",
+          "White-tailed deer",
+          "Wild turkey",
+          "Elk (Cataloochee area)",
+          "River otter"
+        ],
+        "birds": [
+          "Peregrine falcon",
+          "Ruffed grouse",
+          "Worm-eating warbler",
+          "Wild turkey"
+        ],
+        "notes": "The park has ~1,500 black bears. Bears are frequently seen in Cades Cove and along roadsides. Stay 50 yards from bears and 25 yards from other wildlife. No entrance fee."
+      },
+      "entrance_fees": {
+        "vehicle": 0,
+        "motorcycle": 0,
+        "individual": 0,
+        "annual_pass": 0,
+        "currency": "USD",
+        "notes": "Great Smoky Mountains is one of the few major parks with NO entrance fee. Parking tags ($5/day or $15/annual) are required at many trailheads."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/grsm/",
+        "plan_your_visit": "https://www.nps.gov/grsm/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/grsm/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/great-smoky-mountains.jpg",
+      "photo_credit": "Photo: NPS / Great Smoky Mountains NP",
+      "coordinates": {
+        "lat": 35.6118,
+        "lng": -83.4895
+      }
+    },
+    {
+      "id": "arches",
+      "rank": 11,
+      "name": "Arches",
+      "state": [
+        "Utah"
+      ],
+      "established": 1971,
+      "area_acres": 76518,
+      "annual_visitors": 1800000,
+      "scores": {
+        "visitation": 6,
+        "iconic_status": 10,
+        "biodiversity": 5,
+        "scenery": 10,
+        "accessibility": 8
+      },
+      "overview": "Arches contains the greatest density of natural stone arches in the world\u2014over 2,000 catalogued arches in just 76,000 acres of red-rock desert. Iconic formations like Delicate Arch (on Utah's license plate) and Landscape Arch (the longest in North America at 290 ft) draw photographers and hikers from around the globe.",
+      "highlights": [
+        "Delicate Arch (Utah's most iconic landmark)",
+        "Landscape Arch (longest arch in North America)",
+        "The Windows section (multiple arches in a small area)",
+        "Fiery Furnace maze",
+        "Double Arch",
+        "Balanced Rock"
+      ],
+      "best_seasons": {
+        "peak": [
+          "March",
+          "April",
+          "May",
+          "September",
+          "October"
+        ],
+        "shoulder": [
+          "November",
+          "February"
+        ],
+        "avoid": [
+          "June",
+          "July",
+          "August"
+        ],
+        "notes": "Spring and fall are ideal with moderate temperatures. Summer temperatures regularly exceed 100\u00b0F and the park implements timed-entry. Winter can bring snow that creates stunning red-and-white photos."
+      },
+      "must_see_features": [
+        "Hike to Delicate Arch at sunset for the classic silhouette photo",
+        "Walk the Windows Loop to see four major arches in two miles",
+        "Take the Fiery Furnace ranger-led tour (reservation required)",
+        "Photograph Landscape Arch in the Devils Garden area",
+        "Stop at Balanced Rock for an easy iconic photo opportunity"
+      ],
+      "trails": [
+        {
+          "name": "Balanced Rock",
+          "difficulty": "Easy",
+          "distance_miles": 0.3,
+          "notes": "Flat loop around the famous formation; quick stop"
+        },
+        {
+          "name": "Windows Loop",
+          "difficulty": "Easy",
+          "distance_miles": 1.0,
+          "notes": "Visits North and South Windows and Double Arch; sandy but mostly flat"
+        },
+        {
+          "name": "Delicate Arch",
+          "difficulty": "Moderate",
+          "distance_miles": 3.0,
+          "notes": "Exposed slickrock; hot in summer; stunning at sunset; bring plenty of water"
+        },
+        {
+          "name": "Devils Garden Primitive Loop",
+          "difficulty": "Strenuous",
+          "distance_miles": 7.9,
+          "notes": "Full loop visits 8 arches including Landscape Arch; requires scrambling"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Desert bighorn sheep",
+          "Coyote",
+          "Mule deer",
+          "Kangaroo rat",
+          "Rock squirrel"
+        ],
+        "birds": [
+          "Common raven",
+          "Peregrine falcon",
+          "Golden eagle",
+          "Canyon wren"
+        ],
+        "notes": "Desert bighorn sheep are regularly seen near the Delicate Arch viewpoint. Cryptobiotic soil crust (black, lumpy soil) is alive\u2014step only on rock or sand."
+      },
+      "entrance_fees": {
+        "vehicle": 30,
+        "motorcycle": 25,
+        "individual": 15,
+        "annual_pass": 55,
+        "currency": "USD",
+        "notes": "Timed-entry reservations required April\u2013October ($2 fee). America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/arch/",
+        "plan_your_visit": "https://www.nps.gov/arch/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/arch/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/arches.jpg",
+      "photo_credit": "Photo: NPS / Neal Herbert",
+      "coordinates": {
+        "lat": 38.7331,
+        "lng": -109.5925
+      }
+    },
+    {
+      "id": "bryce-canyon",
+      "rank": 12,
+      "name": "Bryce Canyon",
+      "state": [
+        "Utah"
+      ],
+      "established": 1928,
+      "area_acres": 35835,
+      "annual_visitors": 2600000,
+      "scores": {
+        "visitation": 7,
+        "iconic_status": 8,
+        "biodiversity": 6,
+        "scenery": 10,
+        "accessibility": 7
+      },
+      "overview": "Bryce Canyon is not actually a canyon but a series of giant natural amphitheaters filled with thousands of hoodoos\u2014tall, thin spires of rock eroded from the Paunsaugunt Plateau. The park sits at 8,000\u20139,100 ft elevation and offers one of the darkest, clearest night skies in the American Southwest, designated as an International Dark Sky Park.",
+      "highlights": [
+        "Bryce Amphitheater hoodoos at sunrise",
+        "Thor's Hammer (most photographed hoodoo)",
+        "Queen's Garden and Navajo Loop combination",
+        "Rim Trail between Bryce Point and Inspiration Point",
+        "Stargazing (one of the best dark-sky locations in the US)",
+        "Wall Street slot canyon in Navajo Loop"
+      ],
+      "best_seasons": {
+        "peak": [
+          "May",
+          "June",
+          "September",
+          "October"
+        ],
+        "shoulder": [
+          "April",
+          "November"
+        ],
+        "avoid": [],
+        "notes": "The park is beautiful year-round. Summer can be hot at canyon floor but cool on the rim (8,000 ft). Winter brings snow that settles into the hoodoos for stunning white-and-orange photos. Snowshoe rentals available."
+      },
+      "must_see_features": [
+        "Watch sunrise from Bryce Point or Inspiration Point as the hoodoos glow orange",
+        "Descend the Navajo Loop through Wall Street's towering walls",
+        "Combine Navajo Loop and Queen's Garden for the best below-rim hike",
+        "Attend a ranger-led stargazing program (June\u2013September)",
+        "Walk the Rim Trail at golden hour from Sunrise Point to Sunset Point"
+      ],
+      "trails": [
+        {
+          "name": "Rim Trail",
+          "difficulty": "Easy",
+          "distance_miles": 5.5,
+          "notes": "Flat paved trail along the rim; shuttle stops; accessible sections"
+        },
+        {
+          "name": "Navajo Loop",
+          "difficulty": "Moderate",
+          "distance_miles": 1.3,
+          "notes": "Descends 550 ft through Wall Street; steep but short; one of the most popular in the park"
+        },
+        {
+          "name": "Queens Garden + Navajo Loop",
+          "difficulty": "Moderate",
+          "distance_miles": 2.9,
+          "notes": "The classic combination; figure-eight through the best hoodoos below the rim"
+        },
+        {
+          "name": "Fairyland Loop",
+          "difficulty": "Strenuous",
+          "distance_miles": 8.0,
+          "notes": "Less crowded; outstanding hoodoo scenery; involves 1,700 ft elevation change"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Utah prairie dog",
+          "Mule deer",
+          "Pronghorn",
+          "Mountain lion",
+          "Bobcat"
+        ],
+        "birds": [
+          "California condor",
+          "Common raven",
+          "Clark's nutcracker",
+          "Steller's jay"
+        ],
+        "notes": "Utah prairie dog towns are found throughout the park. California condors soar overhead\u2014look for wing tags. The park's dark skies make nighttime wildlife observation unique."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "7-day pass. Free shuttle operates May\u2013October between Bryce Canyon City and Ruby's Inn. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/brca/",
+        "plan_your_visit": "https://www.nps.gov/brca/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/brca/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/bryce-canyon.jpg",
+      "photo_credit": "Photo: NPS / Bryce Canyon National Park",
+      "coordinates": {
+        "lat": 37.593,
+        "lng": -112.1871
+      }
+    },
+    {
+      "id": "sequoia-kings-canyon",
+      "rank": 13,
+      "name": "Sequoia & Kings Canyon",
+      "state": [
+        "California"
+      ],
+      "established": 1890,
+      "area_acres": 865952,
+      "annual_visitors": 1800000,
+      "scores": {
+        "visitation": 6,
+        "iconic_status": 7,
+        "biodiversity": 9,
+        "scenery": 9,
+        "accessibility": 7
+      },
+      "overview": "Two neighboring parks managed together, Sequoia & Kings Canyon protect the largest trees on Earth by volume\u2014the giant sequoia. General Sherman Tree is the world's largest living tree (by volume) at 52,500 cubic feet. Kings Canyon's steep-walled canyon rivals the Grand Canyon in depth, and the parks encompass the highest peaks in the contiguous US (Mt. Whitney, 14,505 ft).",
+      "highlights": [
+        "General Sherman Tree (world's largest tree by volume)",
+        "Kings Canyon Scenic Byway",
+        "Moro Rock (granite dome with panoramic views)",
+        "Crystal Cave",
+        "Zumwalt Meadow",
+        "Mount Whitney (accessible from nearby Inyo NF)"
+      ],
+      "best_seasons": {
+        "peak": [
+          "June",
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "May",
+          "September"
+        ],
+        "avoid": [
+          "November",
+          "December",
+          "January",
+          "February",
+          "March"
+        ],
+        "notes": "Kings Canyon Scenic Byway and Generals Highway fully open summer only; chain control required in winter on upper sections. Giant Forest Museum and General Sherman accessible year-round on Generals Highway."
+      },
+      "must_see_features": [
+        "Walk among the giant sequoias of the Giant Forest Grove to General Sherman Tree",
+        "Hike up Moro Rock steps for 360\u00b0 views of the Great Western Divide",
+        "Take a ranger-led tour of Crystal Cave (reservations required)",
+        "Drive Kings Canyon Scenic Byway to Roads End and hike to Zumwalt Meadow",
+        "See General Grant Tree (the Nation's Christmas Tree)"
+      ],
+      "trails": [
+        {
+          "name": "Congress Trail",
+          "difficulty": "Easy",
+          "distance_miles": 2.0,
+          "notes": "Loop through the Giant Forest; passes General Sherman and dozens of massive sequoias"
+        },
+        {
+          "name": "Moro Rock",
+          "difficulty": "Moderate",
+          "distance_miles": 0.5,
+          "notes": "350 stairs to a granite dome summit; panoramic views"
+        },
+        {
+          "name": "Zumwalt Meadow Loop",
+          "difficulty": "Easy",
+          "distance_miles": 1.5,
+          "notes": "Flat meadow loop with views of Kings Canyon walls"
+        },
+        {
+          "name": "High Sierra Trail",
+          "difficulty": "Strenuous",
+          "distance_miles": 71.0,
+          "notes": "One of the great trails of the Sierra Nevada; permit required; leads to Mt. Whitney"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Black bear",
+          "Mule deer",
+          "Mountain lion",
+          "Coyote",
+          "Pacific marten",
+          "Pika"
+        ],
+        "birds": [
+          "White-headed woodpecker",
+          "Peregrine falcon",
+          "Spotted owl",
+          "American dipper"
+        ],
+        "notes": "Black bears are common in campgrounds. Use bear canisters or food lockers at all times. The park has a robust bear management program\u2014your cooperation is essential."
+      },
+      "entrance_fees": {
+        "vehicle": 35,
+        "motorcycle": 30,
+        "individual": 20,
+        "annual_pass": 70,
+        "currency": "USD",
+        "notes": "Combined Sequoia & Kings Canyon entrance fee covers both parks for 7 days. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/seki/",
+        "plan_your_visit": "https://www.nps.gov/seki/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/seki/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/sequoia-kings-canyon.jpg",
+      "photo_credit": "Photo: NPS / Sequoia & Kings Canyon NPs",
+      "coordinates": {
+        "lat": 36.4864,
+        "lng": -118.5658
+      }
+    },
+    {
+      "id": "joshua-tree",
+      "rank": 14,
+      "name": "Joshua Tree",
+      "state": [
+        "California"
+      ],
+      "established": 1994,
+      "area_acres": 795156,
+      "annual_visitors": 3200000,
+      "scores": {
+        "visitation": 7,
+        "iconic_status": 7,
+        "biodiversity": 7,
+        "scenery": 9,
+        "accessibility": 8
+      },
+      "overview": "Joshua Tree sits at the convergence of two distinct desert ecosystems\u2014the Mojave and the Colorado\u2014creating a uniquely bizarre and beautiful landscape. The namesake Joshua trees (Yucca brevifolia) twist and reach across the Mojave section while enormous boulder formations create a surreal playground for rock climbers and stargazers alike.",
+      "highlights": [
+        "Joshua tree forests of the Mojave Desert section",
+        "Skull Rock",
+        "Cholla Cactus Garden",
+        "Keys View (panoramic desert panorama to the Salton Sea)",
+        "Rock climbing (over 8,000 established climbing routes)",
+        "Dark sky stargazing"
+      ],
+      "best_seasons": {
+        "peak": [
+          "March",
+          "April",
+          "October",
+          "November"
+        ],
+        "shoulder": [
+          "February",
+          "December"
+        ],
+        "avoid": [
+          "June",
+          "July",
+          "August"
+        ],
+        "notes": "Spring wildflower season (late February\u2013April) is magical when conditions align. Summer temperatures regularly exceed 110\u00b0F\u2014dangerous without preparation. Fall is warm but manageable. Winter nights are cold but days are mild and uncrowded."
+      },
+      "must_see_features": [
+        "Walk the Cap Rock Nature Trail through Joshua tree forest and boulders",
+        "Drive Geology Tour Road (dirt road, high-clearance recommended) through desert lowlands",
+        "Visit Cholla Cactus Garden at late afternoon light",
+        "Drive to Keys View for sunset over the Coachella Valley",
+        "Attend a ranger-led night sky program (October\u2013April) or stargaze from Skull Rock"
+      ],
+      "trails": [
+        {
+          "name": "Barker Dam Nature Trail",
+          "difficulty": "Easy",
+          "distance_miles": 1.3,
+          "notes": "Historic dam with a seasonal water pool; bighorn sheep sightings"
+        },
+        {
+          "name": "Skull Rock Nature Trail",
+          "difficulty": "Easy",
+          "distance_miles": 1.7,
+          "notes": "Interpretive trail through boulder formations and the famous skull-shaped rock"
+        },
+        {
+          "name": "Ryan Mountain",
+          "difficulty": "Moderate",
+          "distance_miles": 3.0,
+          "notes": "Panoramic 360\u00b0 views; exposed summit; excellent sunrise location"
+        },
+        {
+          "name": "Lost Palms Oasis",
+          "difficulty": "Strenuous",
+          "distance_miles": 7.5,
+          "notes": "Desert wash leads to largest fan palm oasis in the park; bring extra water"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Desert bighorn sheep",
+          "Coyote",
+          "Roadrunner",
+          "Desert tortoise",
+          "Sidewinder rattlesnake",
+          "Kangaroo rat"
+        ],
+        "birds": [
+          "Greater roadrunner",
+          "Phainopepla",
+          "Ladder-backed woodpecker",
+          "Le Conte's thrasher"
+        ],
+        "notes": "Desert tortoise is a protected species\u2014do not pick them up. If you see one on a road, gently move it in the direction it was headed. Bighorn sheep frequent the Barker Dam area."
+      },
+      "entrance_fees": {
+        "vehicle": 30,
+        "motorcycle": 25,
+        "individual": 15,
+        "annual_pass": 55,
+        "currency": "USD",
+        "notes": "7-day pass. America the Beautiful pass accepted."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/jotr/",
+        "plan_your_visit": "https://www.nps.gov/jotr/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/jotr/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/joshua-tree.jpg",
+      "photo_credit": "Photo: NPS / Brad Sutton",
+      "coordinates": {
+        "lat": 33.8734,
+        "lng": -115.901
+      }
+    },
+    {
+      "id": "denali",
+      "rank": 15,
+      "name": "Denali",
+      "state": [
+        "Alaska"
+      ],
+      "established": 1917,
+      "area_acres": 6075030,
+      "annual_visitors": 600000,
+      "scores": {
+        "visitation": 4,
+        "iconic_status": 9,
+        "biodiversity": 8,
+        "scenery": 10,
+        "accessibility": 5
+      },
+      "overview": "Denali is home to North America's highest peak (20,310 ft / 6,190 m) and encompasses six million acres of wild Alaska interior. The only road into the park (Denali Park Road) is restricted to park buses beyond Savage River, preserving an extraordinary wilderness that supports grizzly bears, wolves, Dall sheep, caribou herds, and moose in nearly pristine subarctic conditions.",
+      "highlights": [
+        "Denali peak (20,310 ft, highest in North America)",
+        "Denali Park Road wildlife viewing",
+        "Eielson Visitor Center (Mile 66)",
+        "Wonder Lake reflection of Denali",
+        "Polychrome Pass panorama",
+        "Backcountry wilderness travel"
+      ],
+      "best_seasons": {
+        "peak": [
+          "June",
+          "July",
+          "August"
+        ],
+        "shoulder": [
+          "May",
+          "September"
+        ],
+        "avoid": [
+          "October",
+          "November",
+          "December",
+          "January",
+          "February",
+          "March",
+          "April"
+        ],
+        "notes": "The park is only fully accessible mid-May through mid-September. Denali is cloud-covered about 70% of summer days\u2014a clear view of the peak is a gift. Midnight sun in June allows 24-hour photography. September brings fall colors and dramatic light."
+      },
+      "must_see_features": [
+        "Take a park bus to Eielson Visitor Center for your best chance to see the peak",
+        "Spot grizzly bears, moose, caribou, and Dall sheep from the bus (all are common)",
+        "Hike off-trail from Savage River to a ridgeline for unobstructed views",
+        "Visit Wonder Lake at midnight in June for reflection shots of Denali",
+        "Attend a sled dog demonstration at park headquarters (genuine working sled dogs)"
+      ],
+      "trails": [
+        {
+          "name": "Savage River Loop",
+          "difficulty": "Easy",
+          "distance_miles": 2.0,
+          "notes": "Accessible by car; first look at the Alaska Range; good for wildlife watching"
+        },
+        {
+          "name": "Horseshoe Lake",
+          "difficulty": "Easy",
+          "distance_miles": 1.5,
+          "notes": "Near park entrance; beaver dams, waterfowl"
+        },
+        {
+          "name": "Triple Lakes Trail",
+          "difficulty": "Moderate",
+          "distance_miles": 9.5,
+          "notes": "Requires park bus to trailhead; subarctic lakes and ridge views"
+        },
+        {
+          "name": "Off-trail ridge hikes (permitted throughout the park)",
+          "difficulty": "Strenuous",
+          "distance_miles": "varies",
+          "notes": "No trail system beyond front country; use topo maps; permit required for overnight; technical zones require climbing registration"
+        }
+      ],
+      "wildlife": {
+        "mammals": [
+          "Grizzly bear",
+          "Gray wolf",
+          "Moose",
+          "Caribou",
+          "Dall sheep",
+          "Wolverine",
+          "Red fox",
+          "Lynx"
+        ],
+        "birds": [
+          "Golden eagle",
+          "Ptarmigan",
+          "Arctic warbler",
+          "Short-eared owl",
+          "Sandhill crane"
+        ],
+        "notes": "Denali's wildlife is world-class. The subarctic ecosystem is relatively intact. Bears are common throughout\u2014bear spray is essential. The Toklat River area is a prime grizzly spot."
+      },
+      "entrance_fees": {
+        "vehicle": 15,
+        "motorcycle": 15,
+        "individual": 15,
+        "annual_pass": 45,
+        "currency": "USD",
+        "notes": "Park bus tickets ($36.50\u2013$59.75 round-trip depending on destination) are required to travel beyond Savage River. Reservations open in December for the following summer. America the Beautiful pass covers entry fee but NOT bus tickets."
+      },
+      "nps_links": {
+        "main": "https://www.nps.gov/dena/",
+        "plan_your_visit": "https://www.nps.gov/dena/planyourvisit/index.htm",
+        "maps": "https://www.nps.gov/dena/planyourvisit/maps.htm"
+      },
+      "photo_placeholder": "assets/images/denali.jpg",
+      "photo_credit": "Photo: NPS / Kent Miller",
+      "coordinates": {
+        "lat": 63.3333,
+        "lng": -150.501
+      }
+    }
+  ]
+}

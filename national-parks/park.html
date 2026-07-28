@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Detailed visitor guide for a top US National Park — trails, wildlife, entrance fees, best seasons, and must-see highlights." />
+    <title>Park Detail | US National Parks</title>
+    <link rel="stylesheet" href="css/parks.css" />
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  </head>
+  <body>
+
+    <!-- ── Site Header ───────────────────────────────────────────────── -->
+    <div id="park-hero" class="park-hero">
+      <!-- Rendered by park-detail.js -->
+      <div class="container"><div class="loading" style="color:rgba(255,255,255,0.8)">Loading…</div></div>
+    </div>
+
+    <!-- ── Navigation ────────────────────────────────────────────────── -->
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">🏆 Rankings</a></li>
+        <li><a href="index.html#map-section">🗺️ Map</a></li>
+        <li><a href="index.html#methodology-section">📊 Methodology</a></li>
+        <li><a href="guides/packing-list.html">🎒 Packing List</a></li>
+        <li><a href="guides/leave-no-trace.html">🌿 Leave No Trace</a></li>
+        <li><a href="itineraries/">🗓️ Itineraries</a></li>
+      </ul>
+    </nav>
+
+    <main id="park-main">
+      <div class="park-detail">
+        <div class="container">
+          <a href="index.html" class="back-link">← All Parks</a>
+
+          <div class="park-detail-grid">
+            <!-- ── Main Column ──────────────────────────────────────── -->
+            <div class="park-main-col">
+
+              <!-- Overview -->
+              <div class="detail-card">
+                <h2>🌄 Overview</h2>
+                <p id="park-overview" class="loading">Loading…</p>
+              </div>
+
+              <!-- Highlights -->
+              <div class="detail-card">
+                <h2>⭐ Key Highlights</h2>
+                <div id="park-highlights"><div class="loading">Loading…</div></div>
+              </div>
+
+              <!-- Best Seasons -->
+              <div class="detail-card">
+                <h2>📅 Best Seasons to Visit</h2>
+                <div id="park-seasons"><div class="loading">Loading…</div></div>
+              </div>
+
+              <!-- Must-See Features -->
+              <div class="detail-card">
+                <h2>✅ Must-See Experiences</h2>
+                <div id="park-must-see"><div class="loading">Loading…</div></div>
+              </div>
+
+              <!-- Trails -->
+              <div class="detail-card">
+                <h2>🥾 Popular Trails</h2>
+                <div id="park-trails" style="overflow-x:auto"><div class="loading">Loading…</div></div>
+              </div>
+
+              <!-- Wildlife -->
+              <div class="detail-card">
+                <h2>🦌 Wildlife</h2>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem">
+                  <div>
+                    <h3 style="font-size:0.95rem;color:var(--primary);margin-bottom:0.5rem">Mammals</h3>
+                    <ul id="park-mammals" class="wildlife-list"></ul>
+                  </div>
+                  <div>
+                    <h3 style="font-size:0.95rem;color:var(--primary);margin-bottom:0.5rem">Birds</h3>
+                    <ul id="park-birds" class="wildlife-list"></ul>
+                  </div>
+                </div>
+                <p id="park-wildlife-notes" style="font-size:0.9rem;color:var(--text-muted);padding:0.8rem;background:#f7f4ef;border-radius:6px;border-left:3px solid var(--accent)"></p>
+              </div>
+
+              <!-- Park-specific map -->
+              <div class="detail-card">
+                <h2>🗺️ Park Location</h2>
+                <div id="park-map" style="height:350px;border-radius:8px;overflow:hidden"></div>
+              </div>
+
+              <!-- Prev / Next Nav -->
+              <div id="park-nav" style="margin-top:1rem"></div>
+
+            </div>
+
+            <!-- ── Sidebar ──────────────────────────────────────────── -->
+            <aside class="park-sidebar-col">
+
+              <!-- Entrance Fees -->
+              <div class="detail-card">
+                <h2>🎫 Entrance Fees</h2>
+                <div id="park-fees"><div class="loading">Loading…</div></div>
+              </div>
+
+              <!-- Official Links -->
+              <div class="detail-card">
+                <h2>🔗 Official NPS Links</h2>
+                <div id="park-nps-links" class="nps-links"></div>
+              </div>
+
+              <!-- Coordinates -->
+              <div class="detail-card">
+                <h2>📍 Coordinates</h2>
+                <p id="park-coordinates" style="font-size:0.95rem;color:var(--text-muted);font-family:monospace"></p>
+              </div>
+
+              <!-- Packing & LNT Quick Links -->
+              <div class="detail-card">
+                <h2>🎒 Visitor Resources</h2>
+                <div class="nps-links">
+                  <a href="guides/packing-list.html" class="nps-link">🎒 Packing List</a>
+                  <a href="guides/leave-no-trace.html" class="nps-link">🌿 Leave No Trace</a>
+                  <a href="itineraries/" class="nps-link">🗓️ Sample Itineraries</a>
+                  <a href="https://www.nps.gov/findapark/passes.htm" class="nps-link" target="_blank" rel="noopener">🎫 America the Beautiful Pass</a>
+                </div>
+              </div>
+
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ── Footer ────────────────────────────────────────────────────── -->
+    <footer class="site-footer">
+      <div class="container">
+        <span>
+          Data: <a href="https://www.nps.gov" target="_blank" rel="noopener">National Park Service</a>
+          &bull; License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+        </span>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="guides/packing-list.html">Packing List</a>
+          <a href="guides/leave-no-trace.html">Leave No Trace</a>
+          <a href="itineraries/">Itineraries</a>
+          <a href="https://github.com/anshu-reddy-personal/skills-customize-your-github-copilot-experience/blob/main/national-parks/CONTRIBUTING.md">Contribute</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
+    <script src="js/park-detail.js"></script>
+  </body>
+</html>
