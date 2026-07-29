@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "algorithmic-problem-solving",
+      "title": "Algorithmic Problem Solving with Search and Sort",
+      "description": "Search and sort a game leaderboard using Python lists",
+      "path": "assignments/algorithmic-problem-solving",
+      "dueDate": "2026-08-05",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
